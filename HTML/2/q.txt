@@ -1,0 +1,13 @@
+Question: Explain meta tags in HTML  
+
+answer: 
+meta tags must be inside of <head></head> and they describe the web page for the browsers and crawlers.
+they including a bunch of tags like title, description, author,...
+
+
+
+another answer:
+Meta tags always go inside head tag of the HTML page
+Meta tags is always passed as name/value pairs
+Meta tags are not displayed on the page but intended for the browser
+Meta tags can contain information about character encoding, description, title of the document etc,
