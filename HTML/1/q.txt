@@ -1,0 +1,10 @@
+Q1:  What is an iframe and how it works?  
+
+Answer:
+Iframe act like a window to show a live page of external resources.
+we just need to add it in the body like below:
+<iframe src="https://external.com" ></iframe>
+
+
+another answer:
+An iframe is an HTML document which can be embedded inside another HTML page.
