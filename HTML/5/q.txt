@@ -1,0 +1,17 @@
+Question:  How Can I Get Indexed Better by Search Engines?  
+
+
+
+answer: meta tags are a nice way to give information about our page to the crawlers.
+other way is to use right elements in right place. for example we shouldn't put an <a></a> inside another <a> tag
+or we must have just 1 h1 in our page.
+
+
+
+
+
+another answer: 
+It is possible to get indexed better by placing the following two statements in the <HEAD> part of your documents:
+<META NAME="keywords" CONTENT="keyword keyword keyword keyword">
+<META NAME="description" CONTENT="description of your site">
+Both may contain up to 1022 characters. If a keyword is used more than 7 times, the keywords tag will be ignored altogether. Also, you cannot put markup (other than entities) in the description or keywords list.
