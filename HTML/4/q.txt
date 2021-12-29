@@ -1,0 +1,15 @@
+Qestion:
+ What is the difference between span and div?
+
+
+
+
+ answer: I think div is block and span is inline-block, no more difference
+
+
+
+
+ another answer: 
+div is a block element
+span is inline element
+For bonus points, you could point out that it’s illegal to place a block element inside an inline element, and that while div can have a p tag, and a p tag can have a span, it is not possible for span to have a div or p tag inside.
