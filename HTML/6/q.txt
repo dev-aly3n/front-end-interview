@@ -1,0 +1,18 @@
+Questions:
+ What were some of the key goals and motivations for the HTML5 specification?
+
+
+
+ answer: I am junior dev and have just 2 years experience with html. so I really don't know about the issues and problems that html4 had
+ and I really don't need to know them.
+
+
+
+
+
+ another answer:
+HTML5 was designed to replace HTML 4, XHTML, and the HTML DOM Level 2. The key goals and motivations behind the HTML5 specification were to:
+Deliver rich content (graphics, movies, etc.) without the need for additional plugins, such as Flash.
+Provide better semantic support for web page structure through new structural element tags.
+Provide a stricter parsing standard to simplify error handling, ensure more consistent cross-browser behaviour, and simplify compatibility with documents written to older standards.
+Provide better cross-platform support whether running on a PC, Tablet, or Smartphone.
