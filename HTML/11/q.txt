@@ -1,0 +1,16 @@
+Question: what's the difference between an "attribute" and a "property" in HTML?
+
+
+
+answer: I don't know
+
+
+
+another answer: 
+Attributes are defined on the HTML markup but properties are defined on the DOM. To illustrate the difference, imagine we have this text field in our HTML: <input type="text" value="Hello">.
+const input = document.querySelector('input');
+console.log(input.getAttribute('value')); // Hello
+console.log(input.value); // Hello
+But after you change the value of the text field by adding "World!" to it, this becomes:
+console.log(input.getAttribute('value')); // Hello
+console.log(input.value); // Hello World!
