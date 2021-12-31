@@ -1,0 +1,9 @@
+Question: What is Character Encoding?
+
+
+answer: I don't know.
+
+
+
+another answer:
+To display an HTML page correctly, a web browser must know which character set (character encoding) to use. This is specified in the tag:
