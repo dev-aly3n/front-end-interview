@@ -1,0 +1,12 @@
+Question: What is a self closing tag?
+
+
+
+answer:some of html tags doesn't need closing tag. they just need to add / to the main one. like img, br, meta.
+in react, there is more self closing tags. like components
+
+
+
+another answer:
+In HTML5 it is not strictly necessary to close certain HTML tags. The tags that aren’t required to have specific closing tags are called “self closing” tags.
+An example of a self closing tag is something like a line break (<br />) or the meta tag (<meta>). This means that the following are both acceptable:
