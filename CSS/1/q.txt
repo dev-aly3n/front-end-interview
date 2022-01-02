@@ -1,0 +1,35 @@
+Question: Explain the three main ways to apply CSS styles to a web page
+
+
+
+
+answer: 1. we can add style directley to the element by style property. 2. we can add the style to the 
+<head><style>
+{styles}
+</style></head> on the html file
+we can add style in another file (.css file) and then import it in our html with link tag.
+
+
+
+
+
+another answer:
+Using the inline style attribute on an element
+<div>
+    <p style="color: maroon;"></p>
+</div>
+Using a <style> block in the <head> section of your HTML
+<head>
+    <title>CSS Refresher</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+Loading an external CSS file using the <link> tag
+<head>
+    <title>CSS Refresher</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
