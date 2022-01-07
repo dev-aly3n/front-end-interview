@@ -1,0 +1,14 @@
+Question: What is a CSS rule?  
+
+
+answer: I don't know.
+
+
+
+
+another answer:
+
+Web browsers apply CSS rules to a document to affect how they are displayed. A CSS rule is formed from:
+A set of properties, which have values set to update how the HTML content is displayed,
+A selector, which selects the element(s) you want to apply the updated property values to.
+A set of CSS rules contained within a stylesheet determines how a webpage should look.
