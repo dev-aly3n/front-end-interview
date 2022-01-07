@@ -1,0 +1,53 @@
+Question: Explain what is a @extend directive used for in Sass?  
+
+
+
+answer: I don't know. I don't use sass. but I think it take a class and its property and add them to another class with more property.
+
+
+
+another answer:
+Using @extend lets you share a set of CSS properties from one selector to another. It helps keep your Sass very dry.
+Consider:
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+  border-color: green;
+}
+
+.error {
+  @extend %message-shared;
+  border-color: red;
+}
+
+.warning {
+  @extend %message-shared;
+  border-color: yellow;
+}
+CSS output:
+.message, .success, .error, .warning {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
