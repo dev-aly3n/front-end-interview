@@ -1,0 +1,13 @@
+Question: What is DOM (Document Object Model) and how is it linked to CSS? 
+
+
+
+answer: dom is the html structure without any style and script. the css will inject to the dom when it parsed.
+
+
+
+
+another answer:
+The Document Object Model (DOM) is a cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document.
+With the Document Object Model, programmers can create and build documents, navigate their structure, and add, modify, or delete elements and content. The DOM specifies interfaces which may be used to manage XML or HTML documents.
+When a browser displays a document, it must combine the document's content with its style information. The browser converts HTML and CSS into the DOM (Document Object Model). The DOM represents the document in the computer's memory. It combines the document's content with its style.
