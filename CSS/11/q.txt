@@ -1,0 +1,12 @@
+Question: What is the difference between classes and IDs in CSS?  
+
+
+
+
+answer: IDs are unique but classes can being shared between multiple elements.
+
+
+
+another answer: 
+IDs — Meant to be unique within the document. Can be used to identify an element when linking using a fragment identifier. Elements can only have one id attribute.
+Classes — Can be reused on multiple elements within the document. Mainly for styling and targeting elements.
