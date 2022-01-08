@@ -1,0 +1,19 @@
+Question: List out the key features for Sass?  
+
+
+
+
+answer: I don't like sass.
+
+
+
+
+
+
+another answer:
+Key features for Sass include
+Full CSS3-compatible
+Language extensions such as nesting, variables, and mixins
+Many useful functions for manipulating colors and other values
+Advanced features like control directives for libraries
+Well-formatted, customizable output
