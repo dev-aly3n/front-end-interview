@@ -1,0 +1,14 @@
+Question: Describe floats and how they work?
+
+
+
+answer: I think floats make a block element to behave like an inline-block element.
+
+
+
+another answer: 
+Float is a CSS positioning property. Floated elements remain a part of the flow of the web page. This is distinctly different than page elements that use absolute positioning. Absolutely positioned page elements are removed from the flow of the webpage.
+#sidebar {
+  float: right; // left right none inherit			
+}
+The CSS clear property can be used to be positioned below left/right/both floated elements.
