@@ -1,0 +1,41 @@
+Question: What Selector Nesting in Sass is used for?
+
+
+
+answer: for creating better Selector that they point to our specific element with specific attributes we need to write our selector like this: .class1 > .class2 > a > .active {}
+
+as you can see it is hard to implement and also hard to read.
+
+so css nesting suggest us to use a better way like: 
+
+.class1 {
+    >.class2 {
+        >a {
+            >.active{
+
+            }
+        }
+    }
+}
+
+
+
+
+another answer:
+Sass let you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. CSS, on the other hand, doesn't have any visual hierarchy.
+Consider example (scss):
+.parent {
+  color: red;
+
+  .child {
+    color: blue;
+  }
+}
+Result (css):
+.parent {
+  color: red;
+}
+
+.parent .child {
+  color: blue;
+}
