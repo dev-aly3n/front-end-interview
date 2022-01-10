@@ -1,0 +1,15 @@
+Question: What is Scope in JavaScript?
+
+
+
+answer: scope is like a family house. you can't find two people with the same name in a house.
+scope tells you how many level a name (variable) can been known. room? house? street? entire town?
+so we have a global scope that if we declare a variable in this scope it will be known for every scope of the app.
+but if the variable declared inside a function of inside a loop, it will not going to be known for outer world of that scope.
+
+
+
+
+another answer:
+In JavaScript, each function gets its own scope. Scope is basically a collection of variables as well as the rules for how those variables are accessed by name. Only code inside that function can access that function's scoped variables.
+A variable name has to be unique within the same scope. A scope can be nested inside another scope. If one scope is nested inside another, code inside the innermost scope can access variables from either scope.
