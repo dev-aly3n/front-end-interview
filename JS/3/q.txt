@@ -1,0 +1,38 @@
+Question: Explain arrays in JavaScript?
+
+
+
+
+answer: arrays are like objects but the "key" is preserved by index number.
+[0:el1 , 1:el2 , 2:el3 ,...]
+if we have multiple value of the same key then they should go into an array.
+so instead of using objects like this:
+let obj = {
+    car1: ford,
+    car2: benz,
+    .
+    .
+    .
+}
+we can and should say :
+let cars = [ford, benz, ...]
+
+
+
+
+
+
+another answer:
+An array is an object that holds values (of any type) not particularly in named properties/keys, but rather in numerically indexed positions:
+var arr = [
+	"hello world",
+	42,
+	true
+];
+
+arr[0];			// "hello world"
+arr[1];			// 42
+arr[2];			// true
+arr.length;		// 3
+
+typeof arr;		// "object"
