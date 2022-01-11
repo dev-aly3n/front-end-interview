@@ -1,0 +1,13 @@
+Question: What is let keyword in JavaScript?
+
+
+
+answer: let keyword being used for declare a variable. difference between var and let is that let doesn't go far from its scope.
+and let does not allow us to use same name for declarations.
+
+
+
+
+
+another answer:
+In addition to creating declarations for variables at the function level, ES6 lets you declare variables to belong to individual blocks (pairs of { .. }), using the let keyword.
