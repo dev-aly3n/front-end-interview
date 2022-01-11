@@ -1,0 +1,18 @@
+Question: Explain Values and Types in JavaScript?
+
+
+
+answer: JavaScript doesn't provide type for variables but we have these types in JavaScript
+number, string, Object, null, undefined, boolean
+
+
+
+
+another answer: 
+JavaScript has typed values, not typed variables. The following built-in types are available:
+string
+number
+boolean
+null and undefined
+object
+symbol (new to ES6)
