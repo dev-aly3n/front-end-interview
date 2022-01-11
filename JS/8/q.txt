@@ -1,0 +1,13 @@
+Question: Explain Null and Undefined in JavaScript?
+
+
+
+answer: imagine a variable as a bowl. null means that the bowl is empty. Undefined means that there is no bowl.
+
+
+
+
+
+another answer:
+Something hasn't been initialized : undefined.
+Something is currently unavailable: null.
