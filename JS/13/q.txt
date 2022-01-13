@@ -1,0 +1,15 @@
+Question:  Is there anyway to force using strict mode in Node.js?
+
+
+
+answer: what the hell? why should I know this in js section?
+
+
+
+
+
+another answer:
+you can place
+"use strict";
+at the top of your file in node >= 0.10.7, but if you want your whole app to run in strict (including external modules) you can do this
+node --use_strict
