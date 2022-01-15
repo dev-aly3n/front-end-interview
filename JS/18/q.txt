@@ -1,0 +1,14 @@
+Question: Explain event bubbling and how one may prevent it?
+
+
+
+
+answer: event bubbling example is when you click on a button that is in a container. imagine two functionality. if you click on container it will disable the button. and if you click on the button container's background color will change.
+so now if we click on the button, actually we just want to click just on button, nothing else. but in this situation both function will call due to event bubbling.
+we can use e.stopPropagation() to stop it or for complicated cases we can assign a specific class or id to the button and in the handler put all of our logic in an if statement that check if the element contains that specific class name or not.
+
+
+
+
+Event bubbling is the concept in which an event triggers at the deepest possible element, and triggers on parent elements in nesting order. As a result, when clicking on a child element one may exhibit the handler of the parent activating.
+One way to prevent event bubbling is using event.stopPropagation() or event.cancelBubble on IE < 9.
