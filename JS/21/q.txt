@@ -1,0 +1,16 @@
+Question: What's the difference between throw Error('msg') vs throw new Error('msg')?
+
+
+
+answer: I think that they have no difference.
+
+
+
+
+another answer:
+
+var err1 = Error('message');
+var err2 = new Error('message');
+Which one is correct and why?
+Answer
+Both are fine; the function call Error(…) is equivalent to the object creation expression new Error(…) with the same arguments.
