@@ -1,0 +1,12 @@
+Question: What is Typescript and why one should use it?
+
+
+
+answer: it is a programming language that compiles to javascript. javascript hasn't static type definition itself, here is typescript come to play to avoid unexpected behavior.
+
+
+
+
+
+another answer:
+TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing and class-based object-oriented programming to the language.
