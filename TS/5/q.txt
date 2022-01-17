@@ -1,0 +1,21 @@
+Question: Explain generics in TypeScript?
+
+
+
+answer: we can have a function that works for multiple role. then by generics we can say if the argument has the <T> type. then the second argument and the returned value of the function must have the desired type (for example also T type.).
+
+
+
+
+another answer:
+Generics are able to create a component or function to work over a variety of types rather than a single one.
+/** A class definition with a generic parameter */
+class Queue<T> {
+  private data = [];
+  push = (item: T) => this.data.push(item);
+  pop = (): T => this.data.shift();
+}
+
+const queue = new Queue<number>();
+queue.push(0);
+queue.push("1"); // ERROR : cannot push a string. Only numbers allowed
