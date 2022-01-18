@@ -1,0 +1,11 @@
+Question: Do we need to compile TypeScript files and why?
+
+
+
+answer: yes we do. because the browser doesn't understand typescript. it just knows javascript. so we need to compile our ts code to js.
+
+
+
+
+another answer:
+Yes we do. Typescript is just a language Extension browsers can't interpret it. Converting from TypeScript to JavaScript is called compiling. Compiling doesn't mean binary code is created in this case. For this kind of translation, also the term transpilation is used instead of compilation.
