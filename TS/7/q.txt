@@ -1,0 +1,13 @@
+Question: How to call base class constructor from child class in TypeScript?
+
+
+
+
+answer: I don't understand that what is the relationship between this question and typescript.
+but we can call "super" method to access the parent class constructor. 
+
+
+
+
+another answer:
+We can call base class constructor using super().
